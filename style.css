@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#result{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+ 
+}
+
+.buttontest{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:30px; 
+}
+
+
+.puit{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 45%;
+    height: 150px;
+    width: 150px;
+    
+}
+
+.puit:hover{
+    background-color: skyblue;
+    font-size: 30px;
+    color: black;
+    height: 150px;
+    width: 150px;
+    transition: all 1.0s;
+    
+}
+
+.fleche-down{
+    background-repeat: no-repeat;
+    width: 30px;
+    margin-top: 2%;
+     margin-left: 49%;
+    height: 30px;
+}
+
+.fleche-down:hover{
+    background-image: url(./image/fleche-3.png);
+    background-repeat: no-repeat;
+    transition: all 1.0s;
+}
